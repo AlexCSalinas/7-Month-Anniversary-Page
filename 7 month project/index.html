@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 7 Months!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Happy 7 Months!</h1>
+        <div id="countdown"></div>
+    </div>
+    <div class="quiz-container">
+        <h2>Franexander Quiz</h2>
+        <div id="quiz">
+            <!-- Questions will be inserted here by JavaScript -->
+        </div>
+        <button id="submit">Submit</button>
+        <div id="results"></div>
+    </div>
+    <div class="slider-container" id="sliderContainer">
+        <h2>How much do you love me?</h2>
+        <input type="range" id="loveSlider" min="0" max="100" value="0">
+    </div>
+    <div class="slider-container" id="newSliderContainer" style="display: none;">
+        <h2>Why not this much?</h2>
+        <input type="range" id="newLoveSlider" min="0" max="200" value="0">
+    </div>
+    <div class="memory-game-container">
+        <h2>Memory Matching Game</h2>
+        <div class="memory-game" id="memoryGame">
+            <!-- Cards will be inserted here by JavaScript -->
+        </div>
+    </div>
+    <div id="memoryNote" style="display: none;">
+        <p id="noteText"></p>
+    </div>
+    <script src="script.js"></script>
+    <div id="connections-game">
+        <h2>Our Connections</h2>
+        <div id="game-board">
+            <p>If you can see this, the game board div exists but is not being populated by JavaScript.</p>
+        </div>
+        <button id="check-answers">Check Answers</button>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
